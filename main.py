@@ -1,7 +1,6 @@
 import os
 from os import walk
 import platform
-from tabulate import tabulate
 from modules.cosine_similarity import cosine_similarity
 from modules.input_refine import input_refine
 from modules.install_requires import install_requires
@@ -12,6 +11,7 @@ def main():
     # Initialize
     try:
         import nltk
+        from tabulate import tabulate
     except ImportError:
         install_requires()
 
