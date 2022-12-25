@@ -3,4 +3,4 @@
 
 ## 使用說明
 
-[![IMAGE ALT TEXT HERE](https://youtu.be/TLQNKiMuNi4)](https://youtu.be/TLQNKiMuNi4)
+[說明影片連結](https://youtu.be/TLQNKiMuNi4)
