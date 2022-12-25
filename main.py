@@ -14,6 +14,8 @@ def main():
         from tabulate import tabulate
     except ImportError:
         install_requires()
+    finally:
+        from tabulate import tabulate
 
     if os.path.isfile("output_files/result.txt"):
         os.remove("output_files/result.txt")
